@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34772DE42091187A00335551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34772DE32091187A00335551 /* AppDelegate.swift */; };
+		34772DE62091187A00335551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34772DE52091187A00335551 /* ViewController.swift */; };
+		34772DE92091187A00335551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34772DE72091187A00335551 /* Main.storyboard */; };
+		34772DEC2091187A00335551 /* PresentVR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34772DEA2091187A00335551 /* PresentVR.xcdatamodeld */; };
+		34772DEE2091187C00335551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34772DED2091187C00335551 /* Assets.xcassets */; };
+		34772DF12091187C00335551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34772DEF2091187C00335551 /* LaunchScreen.storyboard */; };
+		34772DFC2091187C00335551 /* PresentVRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34772DFB2091187C00335551 /* PresentVRTests.swift */; };
+		34772E072091187C00335551 /* PresentVRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34772E062091187C00335551 /* PresentVRUITests.swift */; };
+		34772E1720911C2A00335551 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34772E1620911C2A00335551 /* IntroViewController.swift */; };
+		F5E0472E40E76B36CAFB6161 /* Pods_PresentVR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7785C4E0F6F0AED3DB6349CD /* Pods_PresentVR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34772DF82091187C00335551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34772DD82091187A00335551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34772DDF2091187A00335551;
+			remoteInfo = PresentVR;
+		};
+		34772E032091187C00335551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34772DD82091187A00335551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34772DDF2091187A00335551;
+			remoteInfo = PresentVR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34772DE02091187A00335551 /* PresentVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34772DE32091187A00335551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34772DE52091187A00335551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34772DE82091187A00335551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34772DEB2091187A00335551 /* PresentVR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PresentVR.xcdatamodel; sourceTree = "<group>"; };
+		34772DED2091187C00335551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34772DF02091187C00335551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34772DF22091187C00335551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34772DF72091187C00335551 /* PresentVRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentVRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34772DFB2091187C00335551 /* PresentVRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentVRTests.swift; sourceTree = "<group>"; };
+		34772DFD2091187C00335551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34772E022091187C00335551 /* PresentVRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentVRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34772E062091187C00335551 /* PresentVRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentVRUITests.swift; sourceTree = "<group>"; };
+		34772E082091187C00335551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34772E1620911C2A00335551 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		6AB390A152A077A597EEE638 /* Pods-PresentVR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentVR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PresentVR/Pods-PresentVR.debug.xcconfig"; sourceTree = "<group>"; };
+		7785C4E0F6F0AED3DB6349CD /* Pods_PresentVR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PresentVR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99D9DBA5B7D4DBA2AC037E2 /* Pods-PresentVR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentVR.release.xcconfig"; path = "Pods/Target Support Files/Pods-PresentVR/Pods-PresentVR.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34772DDD2091187A00335551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E0472E40E76B36CAFB6161 /* Pods_PresentVR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34772DF42091187C00335551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34772DFF2091187C00335551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFDD25F93FED2F790FC37F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AB390A152A077A597EEE638 /* Pods-PresentVR.debug.xcconfig */,
+				F99D9DBA5B7D4DBA2AC037E2 /* Pods-PresentVR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		34772DD72091187A00335551 = {
+			isa = PBXGroup;
+			children = (
+				34772DE22091187A00335551 /* PresentVR */,
+				34772DFA2091187C00335551 /* PresentVRTests */,
+				34772E052091187C00335551 /* PresentVRUITests */,
+				34772DE12091187A00335551 /* Products */,
+				0CFDD25F93FED2F790FC37F7 /* Pods */,
+				AF6F61A1E62C604DE67C6080 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		34772DE12091187A00335551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34772DE02091187A00335551 /* PresentVR.app */,
+				34772DF72091187C00335551 /* PresentVRTests.xctest */,
+				34772E022091187C00335551 /* PresentVRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34772DE22091187A00335551 /* PresentVR */ = {
+			isa = PBXGroup;
+			children = (
+				34772DE32091187A00335551 /* AppDelegate.swift */,
+				34772DE52091187A00335551 /* ViewController.swift */,
+				34772E1620911C2A00335551 /* IntroViewController.swift */,
+				34772DE72091187A00335551 /* Main.storyboard */,
+				34772DED2091187C00335551 /* Assets.xcassets */,
+				34772DEF2091187C00335551 /* LaunchScreen.storyboard */,
+				34772DF22091187C00335551 /* Info.plist */,
+				34772DEA2091187A00335551 /* PresentVR.xcdatamodeld */,
+			);
+			path = PresentVR;
+			sourceTree = "<group>";
+		};
+		34772DFA2091187C00335551 /* PresentVRTests */ = {
+			isa = PBXGroup;
+			children = (
+				34772DFB2091187C00335551 /* PresentVRTests.swift */,
+				34772DFD2091187C00335551 /* Info.plist */,
+			);
+			path = PresentVRTests;
+			sourceTree = "<group>";
+		};
+		34772E052091187C00335551 /* PresentVRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34772E062091187C00335551 /* PresentVRUITests.swift */,
+				34772E082091187C00335551 /* Info.plist */,
+			);
+			path = PresentVRUITests;
+			sourceTree = "<group>";
+		};
+		AF6F61A1E62C604DE67C6080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7785C4E0F6F0AED3DB6349CD /* Pods_PresentVR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34772DDF2091187A00335551 /* PresentVR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34772E0B2091187C00335551 /* Build configuration list for PBXNativeTarget "PresentVR" */;
+			buildPhases = (
+				9F79E02DD0F9E1D9CB53A4C0 /* [CP] Check Pods Manifest.lock */,
+				34772DDC2091187A00335551 /* Sources */,
+				34772DDD2091187A00335551 /* Frameworks */,
+				34772DDE2091187A00335551 /* Resources */,
+				F237A112BDA8CB7F9AF61D26 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresentVR;
+			productName = PresentVR;
+			productReference = 34772DE02091187A00335551 /* PresentVR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34772DF62091187C00335551 /* PresentVRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34772E0E2091187C00335551 /* Build configuration list for PBXNativeTarget "PresentVRTests" */;
+			buildPhases = (
+				34772DF32091187C00335551 /* Sources */,
+				34772DF42091187C00335551 /* Frameworks */,
+				34772DF52091187C00335551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34772DF92091187C00335551 /* PBXTargetDependency */,
+			);
+			name = PresentVRTests;
+			productName = PresentVRTests;
+			productReference = 34772DF72091187C00335551 /* PresentVRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34772E012091187C00335551 /* PresentVRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34772E112091187C00335551 /* Build configuration list for PBXNativeTarget "PresentVRUITests" */;
+			buildPhases = (
+				34772DFE2091187C00335551 /* Sources */,
+				34772DFF2091187C00335551 /* Frameworks */,
+				34772E002091187C00335551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34772E042091187C00335551 /* PBXTargetDependency */,
+			);
+			name = PresentVRUITests;
+			productName = PresentVRUITests;
+			productReference = 34772E022091187C00335551 /* PresentVRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34772DD82091187A00335551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Aloa;
+				TargetAttributes = {
+					34772DDF2091187A00335551 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					34772DF62091187C00335551 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 34772DDF2091187A00335551;
+					};
+					34772E012091187C00335551 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 34772DDF2091187A00335551;
+					};
+				};
+			};
+			buildConfigurationList = 34772DDB2091187A00335551 /* Build configuration list for PBXProject "PresentVR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34772DD72091187A00335551;
+			productRefGroup = 34772DE12091187A00335551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34772DDF2091187A00335551 /* PresentVR */,
+				34772DF62091187C00335551 /* PresentVRTests */,
+				34772E012091187C00335551 /* PresentVRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34772DDE2091187A00335551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34772DF12091187C00335551 /* LaunchScreen.storyboard in Resources */,
+				34772DEE2091187C00335551 /* Assets.xcassets in Resources */,
+				34772DE92091187A00335551 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34772DF52091187C00335551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34772E002091187C00335551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F79E02DD0F9E1D9CB53A4C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PresentVR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F237A112BDA8CB7F9AF61D26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PresentVR/Pods-PresentVR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PresentVR/Pods-PresentVR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34772DDC2091187A00335551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34772DE62091187A00335551 /* ViewController.swift in Sources */,
+				34772DE42091187A00335551 /* AppDelegate.swift in Sources */,
+				34772DEC2091187A00335551 /* PresentVR.xcdatamodeld in Sources */,
+				34772E1720911C2A00335551 /* IntroViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34772DF32091187C00335551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34772DFC2091187C00335551 /* PresentVRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34772DFE2091187C00335551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34772E072091187C00335551 /* PresentVRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34772DF92091187C00335551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34772DDF2091187A00335551 /* PresentVR */;
+			targetProxy = 34772DF82091187C00335551 /* PBXContainerItemProxy */;
+		};
+		34772E042091187C00335551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34772DDF2091187A00335551 /* PresentVR */;
+			targetProxy = 34772E032091187C00335551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34772DE72091187A00335551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34772DE82091187A00335551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34772DEF2091187C00335551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34772DF02091187C00335551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34772E092091187C00335551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34772E0A2091187C00335551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34772E0C2091187C00335551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB390A152A077A597EEE638 /* Pods-PresentVR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XHYYL9F4G2;
+				INFOPLIST_FILE = PresentVR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloa.PresentVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34772E0D2091187C00335551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99D9DBA5B7D4DBA2AC037E2 /* Pods-PresentVR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XHYYL9F4G2;
+				INFOPLIST_FILE = PresentVR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloa.PresentVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34772E0F2091187C00335551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATX6HC2GJE;
+				INFOPLIST_FILE = PresentVRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloa.PresentVRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresentVR.app/PresentVR";
+			};
+			name = Debug;
+		};
+		34772E102091187C00335551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATX6HC2GJE;
+				INFOPLIST_FILE = PresentVRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloa.PresentVRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresentVR.app/PresentVR";
+			};
+			name = Release;
+		};
+		34772E122091187C00335551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATX6HC2GJE;
+				INFOPLIST_FILE = PresentVRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloa.PresentVRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PresentVR;
+			};
+			name = Debug;
+		};
+		34772E132091187C00335551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATX6HC2GJE;
+				INFOPLIST_FILE = PresentVRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aloa.PresentVRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PresentVR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34772DDB2091187A00335551 /* Build configuration list for PBXProject "PresentVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34772E092091187C00335551 /* Debug */,
+				34772E0A2091187C00335551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34772E0B2091187C00335551 /* Build configuration list for PBXNativeTarget "PresentVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34772E0C2091187C00335551 /* Debug */,
+				34772E0D2091187C00335551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34772E0E2091187C00335551 /* Build configuration list for PBXNativeTarget "PresentVRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34772E0F2091187C00335551 /* Debug */,
+				34772E102091187C00335551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34772E112091187C00335551 /* Build configuration list for PBXNativeTarget "PresentVRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34772E122091187C00335551 /* Debug */,
+				34772E132091187C00335551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34772DEA2091187A00335551 /* PresentVR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34772DEB2091187A00335551 /* PresentVR.xcdatamodel */,
+			);
+			currentVersion = 34772DEB2091187A00335551 /* PresentVR.xcdatamodel */;
+			path = PresentVR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34772DD82091187A00335551 /* Project object */;
+}
