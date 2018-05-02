@@ -21,13 +21,6 @@ module.exports = {
 			completion(results.length == 1);
 		});
 	},
-	codeExists: function(code, completion) {
-		const query = 'SELECT roomId FROM sessions WHERE EXISTS (SELECT sessionId FROM sessions WHERE roomId = \'' + roomId + '\');';
-		connection.query(query, function (error, results, fields) {
-			if(error) throw error;
-			completion(results.length == 1);
-		})
-	},
 	codeForSession:  function(sessionId, completion) {
 		const query = 'SELECT roomId FROM sessions WHERE sessionId = \'' + sessionId + '\';';
 		connection.query(query, function (error, results, fields) {
@@ -60,9 +53,22 @@ module.exports = {
 			completion(results);
 		})
 	},
+	addTranscript: function(sessionId, transcript, completion) {
+		const query = "UPDATE sessions SET transcript = \'" + transcript + "\' WHERE sessionId = \'" + sessionId + "\';"
+		connection.query(query, function (error, results, fields) {
+			if(error) throw error;
+			completion(results);
+		})
+	},
+	getTranscript: function(sessionId, completion) {
+		const query = "SELECT `transcript` FROM `sessions` WHERE `sessionId` = \'" + sessionId + "\';";
+		connection.query(query, function(error, results, fields) {
+			if(error) throw error;
+			if(results[0])
+				completion(results[0].transcript);
+		})
+	},
 	closeConnection: function(connection) {
 		connection.close();
 	}
 }
-
-//connection.end();
